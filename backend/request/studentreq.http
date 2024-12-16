@@ -1,0 +1,31 @@
+get http://localhost:4000/student_api/testit
+
+###
+post http://localhost:4000/student_api/register
+Content-Type: application/json
+
+{
+    "studentName": "prince ",
+    "rollNo": "12345",
+    "section": "A",
+    "branch": "Computer Science",
+    "phoneNo": "9876543210",
+    "email": "john.doe@example.com",
+    "username":"cherry",
+    "password": "password123"
+}
+
+###
+post http://localhost:4000/student_api/login
+Content-Type: application/json
+
+{
+    "username":"cherry",
+    "password": "password123"
+}
+
+###
+get http://localhost:4000/student_api/student/Aashritha
+
+###
+get http://localhost:4000/student_api/internships/19071A05P0

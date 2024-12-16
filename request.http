@@ -1,0 +1,58 @@
+post http://localhost:4000/student_api/register
+Content-Type: application/json
+
+{
+    "studentName":"Aashritha",
+    "rollNo":"51",
+    "section":"A",
+    "branch":"CSE",
+    "phoneNo":"1111111111",
+    "email":"a@gmail.com",
+    "username":"Aashritha",
+    "password":"Aash"
+}
+
+###
+post http://localhost:4000/student_api/login
+Content-Type: application/json
+
+{
+    "username":"Aash",
+    "password":"Aash"
+}
+
+###
+post http://localhost:4000/faculty_api/register
+Content-Type: application/json
+
+{
+    "facultyName":"Aashritha",
+    "facultyId":"51",
+    "department":"A",
+    "branch":"CSE",
+    "phoneNo":"1111111111",
+    "email":"a@gmail.com",
+    "username":"Aashritha",
+    "password":"Aash"
+}
+
+###
+post http://localhost:4000/faculty_api/login
+Content-Type: application/json
+
+{
+    "username":"Aash2",
+    "password":"Aash"
+}
+
+###
+post http://localhost:4000/faculty_api/internships
+
+###
+post http://localhost:4000/student_api/add-internship
+
+Content-Type: application/json
+{
+    "Roll Number":"19071A0590",
+    "Monthly Stipend":"200000"
+}
