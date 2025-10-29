@@ -157,7 +157,7 @@ Create a `.env` file in the backend directory with the following:
 
 ```env
 # Database Configuration
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/database-name
+MONGODB_URI=mongodburl
 
 # Server Configuration
 PORT=4000
